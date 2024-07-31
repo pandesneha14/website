@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellent Legal Helpers</title>
+
+    <meta name="keywords"
+        content="Legal Services, Free Legal Aid, Legal Document Preparation, Legal Awareness, Civil and Criminal Matters, Legal education, Matrimonial Disputes, Property Legal Assistance, Court Marriages, Legal Internships, Legal Certification Courses" />
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="logo1.jpeg " type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+            /*overflow-x: hidden;*/
+        }
+
+        body {
+            color: #fff;
+            background: white;
+            background: url(https://media.licdn.com/dms/image/D4D12AQH7pLGzYg3C2g/article-cover_image-shrink_720_1280/0/1691840768274?e=2147483647&v=beta&t=4Xuf1tEUt4XJe0UFZ6qZDPvf5E-BgaYAUGQnOpu6eGc);
+            background-repeat: repeat;
+            background-size: contain;
+
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background-repeat: no-repeat;
+                /* This will not repeat the background */
+                background-size: cover;
+                /* This will make sure the image covers the whole area */
+            }
+        }
+
+        .wrapper {
+            padding: 10px;
+        }
+
+        #card-area {
+            padding: 50px 0;
+        }
+
+        .box-area {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 10px;
+            margin-top: 50px;
+        }
+
+        .box {
+            border-radius: 10px;
+            width: 360px;
+            margin-left: 20px;
+            height: 750px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .box-img {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+            transition: transform 0.5s;
+        }
+
+        .overlay a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: justify;
+
+        }
+
+        .para {
+            /* text-align: center; */
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: .6s;
+        }
+
+        .para:hover {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .boxLhover img {
+            transform: scale(1.2);
+        }
+
+        header {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        /* ==================================FOOTER  SESSION STYLING==================================*/
+
+        .footer {
+            width: 100%;
+            background: black;
+            display: block;
+            margin-top: 50px;
+        }
+
+        .inner-footer {
+            width: 100%;
+            margin: auto;
+            padding: 30px 10px;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            justify-content: space-evenly;
+        }
+
+        .footer-items {
+            width: 30%;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            color: #fff;
+        }
+
+
+        ul {
+            list-style: none;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        ul a {
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        ul a:hover {
+            color: #ff9800;
+        }
+
+        li i:hover {
+            transform: scale(1.5);
+        }
+
+
+        .social-media {
+            width: 100%;
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+        }
+
+        .border1 {
+            height: 3px;
+            width: 40px;
+            background: white;
+            color: white;
+            margin-bottom: 10px;
+            background-color: white;
+            border: 0px;
+        }
+
+        .social-media i {
+            height: 25px;
+            width: 25px;
+            margin: 20px 10px;
+            padding: 4px;
+            color: #fff;
+            transition: 0.5s;
+        }
+
+        .social-media i:hover {
+            transform: scale(1.5);
+        }
+
+        h3 {
+            transition: 0.3s;
+        }
+
+        h3:hover {
+            font-size: 35px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgb(156, 153, 153);
+            padding: 17px;
+            background: black;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        /* for tablet mode view */
+
+        @media screen and (max-width: 1275px) {
+            .footer-items {
+                width: 50%;
+            }
+        }
+
+        /* for mobile screen view */
+
+        @media screen and (max-width: 660px) {
+            .footer-items {
+                width: 100%;
+            }
+        }
+
+        /* ======================================CSS FIRM PAGE STYLING====================================== */
+
+
+        .container {
+            border-radius: 5px;
+            background-color: transparent;
+            box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+        }
+
+        article {
+            color: white;
+            font-size: 16px;
+            margin-top: 30px;
+        }
+
+        @media screen and (min-width: 480px) {}
+
+        span {
+            color: #FFF;
+            font-size: 43px;
+        }
+
+        .third {
+            width: 100%;
+            height: 500px;
+        }
+
+
+        strong {
+            text-decoration: 7px underline rgb(204, 176, 85);
+        }
+
+        /* Your existing styles */
+
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 0;
+                width: 100%;
+            }
+
+            .box-area {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                grid-gap: 20px;
+            }
+
+            .box {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            header {
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+
+            header {
+                font-size: 25px;
+            }
+        }
+
+        button {
+            background-color: white;
+            border: none;
+            padding: 3px 8px;
+
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* ========================================CSS NAVBAR STYLING============================================ */
+
+        /* NAVBAR DROPDOWN CSS  START */
+
+        ul a {
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        ul a:hover {
+            color: #ff9800;
+        }
+
+        .dropdown-item {
+            transition: .5s;
+        }
+
+        /* Custom styles for nested dropdown */
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+            display: none;
+        }
+
+        .dropdown-submenu:hover .dropdown-menu {
+            display: block;
+        }
+
+        @media screen and (max-width: 360px) {
+
+            .nav-text {
+                font-size: 18px;
+            }
+        }
+
+        .rowRow {
+            border: solid 1px black;
+            background-color: #000000bf;
+            color: #fff;
+            height: 65px;
+            width: 150px;
+        }
+
+        .empty {
+            border: none !important;
+            background-color: #00000000 !important;
+        }
+
+        div#popUpForm {
+            position: absolute;
+            width: 100%;
+            background-color: #00000082;
+            backdrop-filter: blur(6px);
+            display: none;
+            height: 100%;
+
+        }
+
+        #popContainer {
+            width: 100vw;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border-top: 4px solid rgb(204, 176, 85);
+            border-bottom: 4px solid rgb(204, 176, 85);
+            text-align: center;
+            margin: 0 auto;
+            background-color: rgba(231, 225, 225, 0.133);
+            margin-top: 50px;
+        }
+
+        .top {
+            border-bottom: 2px solid bisque;
+        }
+
+        /* Style for the popup form */
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .popup-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .popup-content h2 {
+            margin: 0 0 15px;
+        }
+
+        .popup-content button {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .agree {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .disagree {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .blurred {
+            filter: blur(5px);
+        }
+
+        .gold {
+            color: rgb(204, 176, 85);
+        }
+
+        .text_img2 {
+            font-size: 30px;
+        }
+
+        .text_img {
+            font-size: 70px;
+        }
+
+
+        .card-circle {
+            position: relative;
+        }
+
+        .card-circle::after {
+            content: "";
+            display: inline-block;
+            width: 350px;
+            height: 350px;
+            background-color: rgb(204, 176, 85);
+            position: absolute;
+            bottom: 0;
+            opacity: 0.3;
+            right: 0;
+            clip-path: circle(52.9% at 93% 99%);
+
+        }
+
+        .card {
+            border: 3px solid rgb(204, 176, 85);
+        }
+    </style>
+
+</head>
+
+<body onload="showPopup()">
+
+    <div id="popup" class="popup" style="overflow-x:hidden;">
+        <div id="popContainer" class="bg-white text-dark w-75">
+            <div class="blur-card text-center shadow-lg p-2">
+                <div class="top p-2 fs-3">Disclaimer</div>
+                <p class="mt-3">
+                    The Bar Council of India forbids advocates from engaging in any type of advertising or
+                    soliciting. You
+                    acknowledge and confirm that you are seeking information about us on your own initiative and
+                    that
+                    Excellent Legal Helpers or any of its members have not approached you or offered you anything in
+                    exchange for visiting the website. The contents of this website are for informational purposes
+                    only
+                    and should not be taken as solicitation or advertising. No part of this website, including the
+                    information and content, is intended as legal advice and should not be considered as such.
+                </p>
+                <div class="d-flex justify-content-between mt-3">
+                    <button class="disagree" onclick="redirectToGoogle()">Disagree</button>
+                    <button class="agree" onclick="redirectToWebsite()">Agree</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-content">
+
+        <!-- Small Navbar -->
+        <div class="container-fluid pt-3" style="background-color: black;">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center" style="font-family: 'Times New Roman';">
+                        <img src="logo1.jpeg" alt="" width="60px" style="border-radius: 50%;"><span
+                            class="px-3 fs-3 text-white">EXCELLENT LEGAL HELPERS</span>
+                        <img src="logo2.jpeg" alt="" width="60px" style="border-radius: 50%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Big Navbar -->
+        <div class="container-fluid" style="background-color: black; position: sticky; top: 0; z-index: 99;">
+            <div>
+                <div class="row">
+                    <div>
+                        <nav class="navbar navbar-expand-lg navbar-dark justify-content-center"
+                            style="background-color: black;">
+
+                            <div class="d-lg-block d-none">
+                                <ul class="nav navbar-nav">
+                                    <!--  -->
+
+                                    <li class="nav-item">
+                                        <a href="index.html" class="nav-link text-white ">Home</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+
+                                        <!-- Service first dropdown -->
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="#">Area of practice </a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Civil
+                                                            matters</a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Criminal
+                                                            matters
+
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Matrimonial
+                                                            matters
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Property
+                                                            matters
+
+                                                        </a>
+                                                    </li>
+
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Bail
+                                                            matters
+
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Motor
+                                                            accident claim matters
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Meditation
+                                                            and arbitration matters
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Court
+                                                            marriage
+
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Challans
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Money
+                                                            laundering
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+
+
+                                            <!-- Service second dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="#">Legal Document</a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Legal notice
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Will deed
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Gift deed</a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Sale deed
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Partnership
+                                                            deed
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Agreement</a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Contract</a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Power of
+                                                            attorney
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Rent agreement
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Lease
+                                                            agreement
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Non -
+                                                            disclosure
+                                                            agreement
+
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Trademark
+                                                            registration
+
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+
+
+                                            <!-- Service third dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="#">Other Services</a>
+                                                <ul class="dropdown-menu">
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Company
+                                                            Registration
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> MSME
+                                                            registration
+
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Other
+                                                            services (+)</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- Service fourth dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item" href="mailto:elh.freelawcourses@gmail.com">Join
+                                                    Internship</a>
+                                            </li>
+
+                                            <!-- Service fifth dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="#">Online Exam.</a>
+                                                <ul class="dropdown-menu">
+
+                                                    <li class="dropdown-item">
+                                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUTde174YRoDA_dxUzhD2OVPoUCwWmGC99aKKNQGjhIXZ84A/viewform?usp=sf_link"
+                                                            class="text-decoration-none text-dark">IPR Examination </a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSGY7I642rGSBkqNEl8WiZCbmQKJUpPWvmzGq0weZuSVmdfg/viewform?usp=sf_link"
+                                                            class="text-decoration-none text-dark">Criminology
+                                                            Examination</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+
+                                    <!-- ======================================================================== -->
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Free Certification Course
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                            <!-- Free Certification Course first dropdown-->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item " href="ipr_certification.html">IPR
+                                                    Certification
+                                                    Course</a>
+                                            </li>
+
+
+                                            <!-- Free Certification Course second dropdown-->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item " href="criminology.html">Criminology
+                                                    Certification
+                                                    Course</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+
+                                    <li class="nav-item">
+                                        <a href="LegalAid.html" class="nav-link text-white">Free Legal Aid</a>
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="BoardofAdvisory.html" class="nav-link text-white">Board of
+                                            Advisory</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="seminar.html" class="nav-link text-white">Seminars & Events
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="Contactform.html" class="nav-link text-white">Contact Us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+
+                            <!-------------------------------- mobile responsive ------------------------------->
+
+
+                            <i class="fa-solid fa-house d-lg-none d-block text-white fs-3" data-bs-toggle="offcanvas"
+                                data-bs-target="#abc"></i>
+                            <div class="offcanvas offcanvas-end d-lg-none d-block w-100" id="abc">
+                                <div class="offcanvas-header">
+                                    <button class="btn-close ms-auto" data-bs-dismiss="offcanvas"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="index.html" class="nav-link text-dark mt-3">Home</a>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-dark mt-3" href="#serv"
+                                                id="navbarDropdown" role="button" data-bs-toggle="collapse"
+                                                aria-expanded="false">Services</a>
+                                            <ul class="dropdown-menu collapse" id="serv"
+                                                aria-labelledby="navbarDropdown">
+
+
+                                                <!-- Service first dropdown -->
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="collapse"
+                                                        href="#servdrop">Area of practice </a>
+                                                    <ul class=" collapse" id="servdrop">
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Civil
+                                                                matters</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Criminal
+                                                                matters</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href=""
+                                                                class="text-decoration-none text-dark">Matrimonial
+                                                                matters</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark"> Property
+                                                                matters</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Bail
+                                                                matters</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark"> Motor
+                                                                accident claim matters</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Meditation
+                                                                and
+                                                                arbitration matters</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark"> Court
+                                                                marriage</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href=""
+                                                                class="text-decoration-none text-dark">Challans</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Money
+                                                                laundering</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+
+
+                                                <!-- Service second dropdown -->
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-item dropdown-toggle" href="#legal"
+                                                        data-bs-toggle="collapse">Legal Document</a>
+                                                    <ul class=" collapse" id="legal">
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Legal
+                                                                notice</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Will deed
+                                                            </a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Gift
+                                                                deed</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark"> Sale deed
+                                                            </a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href=""
+                                                                class="text-decoration-none text-dark">Partnership
+                                                                deed</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">
+                                                                Agreement</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href=""
+                                                                class="text-decoration-none text-dark">Contract</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Power of
+                                                                attorney</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Rent
+                                                                agreement</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark"> Lease
+                                                                agreement</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Non -
+                                                                disclosure agreement</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Trademark
+                                                                registration</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <!-- Service third dropdown -->
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-item dropdown-toggle" href="#otherserv"
+                                                        data-bs-toggle="collapse">Other Services</a>
+                                                    <ul class="collapse" id="otherserv">
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Company
+                                                                Registration</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark"> MSME
+                                                                registration</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="" class="text-decoration-none text-dark">Other
+                                                                services
+                                                                (+)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <!-- Service fourth dropdown -->
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-item"
+                                                        href="mailto:elh.freelawcourses@gmail.com">Join
+                                                        Internship</a>
+                                                </li>
+
+                                                <!-- Service fifth dropdown -->
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-item dropdown-toggle" href="#">Online Exam.</a>
+                                                    <ul class="dropdown-menu">
+
+                                                        <li class="dropdown-item">
+                                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUTde174YRoDA_dxUzhD2OVPoUCwWmGC99aKKNQGjhIXZ84A/viewform?usp=sf_link"
+                                                                class="text-decoration-none text-dark">IPR Examination
+                                                            </a>
+                                                        </li>
+                                                        <li class="dropdown-item">
+                                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSGY7I642rGSBkqNEl8WiZCbmQKJUpPWvmzGq0weZuSVmdfg/viewform?usp=sf_link"
+                                                                class="text-decoration-none text-dark">Criminology
+                                                                Examination</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-dark mt-3" href="#"
+                                                id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">Free
+                                                Certification Course</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                                <!-- Free Certification Course first dropdown-->
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-item " href="ipr_certification.html">IPR
+                                                        Certification Course</a>
+                                                </li>
+
+                                                <!-- Free Certification Course second dropdown-->
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-item " href="criminology.html">Criminology
+                                                        Certification Course</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="LegalAid.html" class="nav-link text-dark mt-3">Free Legal Aid</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="BoardofAdvisory.html" class="nav-link text-dark mt-3">Board of
+                                                Advisory</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="seminar.html" class="nav-link text-dark mt-3">Seminars & Events
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="Contactform.html" class="nav-link text-dark mt-3">Contact Us</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================================================================================================ -->
+
+        <!-- main session 1-->
+
+        <div class="container-fluid">
+            <div class="container mt-5 p-4">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <strong>
+                            <article class="gold text_img2 fw-bold para"><span
+                                    class="gold text_img">E</span>XCELLENT<span class="gold text_img">
+                                    L</span>EGAL</span><span class="gold text_img"> H</span>ELPERS</article>
+                        </strong>
+
+                        <article>Seeking Legal Excellence and Empowerment ? Look no Further Join Excellent Legal Helpers
+                            Today. ELH is Founded in 2020 is a dynamic team of various Lawyers & Law students United by
+                            common goal : to address the challenges faced by aspiring legal professionals during their
+                            academic journey.</article>
+
+                        <article>Our mission is to educate , raise awareness and inform the people of India about their
+                            legal rights. At ELH , we integrate legal aid and awareness to empower individuals and
+                            communities across the nation. Join us in our endeavor to make a difference! ELH organizes a
+                            wide range of competitions , seminars , webinars , workshops and free legal aid camps
+                            providing
+                            invaluable learning opportunities and fostering personal growth.</article>
+
+                        <article>Additionally , we offer internships opportunities to aspiring law students & other
+                            professional students , enabling them to gain practical experience and develop crucial
+                            skills to
+                            thrive in their legal careers. Join us at Excellent Legal Helpers (ELH) and become part of a
+                            transformative movement in Legal education and empowerment.</article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================================================================================= -->
+
+        <!--PARTNERS CARDS -->
+
+        <div id="card-area">
+
+            <div class="container-fluid">
+                <main class="container">
+                    <div class="row">
+                        <strong>
+                            <article class="gold text_img2 fw-bold para"><span
+                                    class="gold text_img">P</span>ARTNERS<span class="gold text_img">
+                                    O</span>F</span><span class="gold text_img"> E</span>LH !!</article>
+                        </strong>
+                        <div class="row px-5 py-3">
+                            <div class="card shadow-lg pb-2  card-circle">
+                                <div class="row">
+
+                                    <div class="col-lg-4">
+                                        <img src="deepakbhatt.jpeg" alt="" width="90%" class="pt-3">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-content pt-2">
+                                            <h3>MR. DEEPAK BHATT</h3>
+                                            <p> Meet Mr. Deepak Bhatt he is the founder and managing partner at
+                                                Excellent
+                                                Legal Helpers. But his influence doesn't stop there; He's also an RTI
+                                                Activist,
+                                                Politician, Chairman of MadhuVihar ward NYP, Digital Marketing expert,
+                                                Legal
+                                                Advisor, & the Founder of Excellent Legal Helpers (ELH). Add to that
+                                                his certification and diploma in Effective Speaking & Presentation
+                                                Skills, &
+                                                you
+                                                have a powerhouse communicator. Armed with a BA.LLB & an array of
+                                                diplomas
+                                                in Cyber Law, Media &
+                                                Entertainment Law, Intellectual Property Rights, & Criminology, he's a
+                                                legal
+                                                virtuoso. Motivational Speaker by trade, he's also a Financial &
+                                                Insurance
+                                                Advisor,</p>
+
+                                            <p id="content" style="display: none;">A
+
+                                                shaping futures beyond the legal realm. With his diverse skill set &
+                                                roles,
+                                                Mr. Bhatt epitomizes versatility & influence in today's dynamic
+                                                landscape
+
+                                            <div class="overlay">
+                                                <a href="https://www.linkedin.com/company/excellent-legal-helpers/"
+                                                    style="margin-top: 65px;">Deepak Bhatt LinkedIn Profile</a> <br>
+                                                <a href="#">DEEPBHATT579@gmail.com </a> <br>
+                                                <a href="#">9821669624</a>
+                                            </div>
+                                            </p>
+
+                                            <button onclick="readmore1()">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-lg mt-4 card-circle">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img src="priya.jpeg" alt="" width="90%" class="pt-3 pb-2">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-content pt-2">
+                                            <h3>MS. PRIYA SHARMA</h3>
+
+                                            <p>Priya Sharma, a dynamic figure at Excellent Legal Helpers, serves as
+                                                Partner,
+                                                Additional Director, & Course & Internship Coordinator. Beyond her
+                                                multifaceted roles, she's also
+                                                the Secretary of the Free Legal Aid Service. Her accolades speak volumes
+                                                about
+                                                her prowess: crowned Best Speaker at the esteemed 2nd P.N. Mathur
+                                                National
+                                                Moot
+                                                Court Competition 2023, & triumphing in various moot &
+                                            </p>
+
+                                            <p id="content1" style="display: none;"> trial Advocacy
+                                                competitions.
+                                                Priya's
+                                                expertise traverses Constitutional Law, Competition Law, & Criminal
+                                                Cases,
+                                                with
+                                                a keen
+                                                focus on PMLA matters. Armed with diplomas in diverse fields including
+                                                Computer
+                                                Application, Media & Entertainment Law, & Corporate & Legal
+                                                Communication,
+                                                etc.
+                                                She's a
+                                                versatile legal professional. Her array of awards, from moot court
+                                                victories
+                                                to
+                                                special
+                                                mentions in Model United Nations & Youth Parliament, underscore her
+                                                unwavering
+                                                commitment to legal excellence and advocacy.
+                                            <div class="overlay">
+                                                <a href="https://www.linkedin.com/in/priya-sharma-2a6266249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                    style="margin-top: 10px;">Priya Sharma LinkedIn Profile</a> <br>
+                                                <a href="#">consultwithpriya@gmail.com</a> <br>
+                                                <a href="#">87001 06983</a> <br>
+                                            </div>
+                                            </p>
+                                            <button onclick="readmore2()">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card shadow-lg mt-4 card-circle">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img src="ritika.jpeg" alt="" width="90%" class="p-1">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-content pt-2">
+                                            <h3>MS. RIKTIKA </h3>
+                                            <p>Riktika is the embodiment of versatility at Excellent Legal
+                                                Helpers, serving as Co-founder, Legal Associate, and Chairperson of the
+                                                Legal
+                                                Aid
+                                                Centre. Armed with an LL.B. from Asian Law College, Noida, and a B.Com
+                                                (H)
+                                                from
+                                                Delhi
+                                                University, she's a legal maven with a holistic educational background.
+                                                Her
+                                                academic
+                                                journey was marked by triumphs in moot court competitions, debates,
+                                                Model
+                                                United
+                                                Nations
+                                                (MUN), and Nukkad Natak, showcasing her prowess beyond the classroom.
+                                                Her
+                                                accolades
+                                                include securing first place in a paper presentation competition and
+                                                clinching
+                                                the best
+                                            </p>
+
+
+                                            <p id="content2" style="display: none;"> memorial in moot and trial
+                                                competitions. Riktika's expertise extends beyond
+                                                traditional
+                                                law studies; she holds diplomas in Media and Entertainment Law,
+                                                Intellectual
+                                                Property
+                                                Rights (IPR), and Cyber Law, coupled with a certification in Corporate
+                                                Legal
+                                                Communication. Her areas of interest span a wide spectrum, from IPR and
+                                                Constitutional
+                                                Law to Hindu Law, Banking Law, Arbitration, and Compliance, making her a
+                                                true
+                                                connoisseur of legal intricacies.
+                                            <div class="overlay">
+                                                <a href="https://www.linkedin.com/in/riktika-singh-082054240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                    class="pt-2">Ritika LinkedIn Profile</a> <br>
+                                                <a href="#">riktika.llb@alc.edu.in</a> <br>
+                                                <a href="#">9717085973</a> <br>
+                                            </div>
+                                            </p>
+                                            <button onclick="readmore3()" class="mt-2">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card shadow-lg mt-4 card-circle">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img src="divya.jpeg" alt="" width="90%" class="p-1">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-content pt-2">
+                                            <h3>MS. Divya Tomar </h3>
+                                            <p>My name is Divya Tomar. I successfully completed my Senior Secondary High
+                                                School
+                                                education with a focus on the PCB Stream. Following this, I pursued a
+                                                B.Sc.
+                                                degree from Choudhary Charan Singh University, followed by an LLB from
+                                                Meerut
+                                                College, also under Choudhary Charan Singh University. In 2022, I became
+                                                enrolled with the Bar Council of Delhi. Throughout my academic journey,
+                                                I
+                                                engaged
+                                                in valuable internships, including placements at Rohini Court and with
+                                                the
+                                                Ministry of Law and Justice. These experiences provided me with
+                                                practical
+                                                insights into legal proceedings and governmental legal frameworks.
+
+
+                                            <p id="content3" style="display: none;"> As a legal professional, I
+                                                recognize
+                                                the myriad challenges and
+                                                responsibilities we bear towards the court and our clients.
+                                                I am committed to striving for
+                                                excellence in my practice and am dedicated to continuous improvement. My
+                                                diligent work ethic ensures that I consistently seek opportunities to
+                                                enhance my
+                                                skills and knowledge, aiming always to deliver exceptional service as a
+                                                lawyer.
+                                            </p>
+
+
+                                            <div class="overlay">
+                                                <a href="https://www.linkedin.com/in/divya-tomar-b68b791aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                    class="pt-2">Divya LinkedIn Profile</a> <br>
+                                                <a href="#"> tomar6157@gmail.com</a> <br>
+                                                <a href="#"> 6398 921 913</a> <br>
+                                            </div>
+                                            </p>
+
+
+                                            <button onclick="readmore4()" class="mt-2">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-lg mt-4 card-circle">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img src="ekta.jpeg" alt="" width="90%" class="p-1">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="card-content pt-2">
+                                            <h3>MS. Ekta Trivedi </h3>
+                                            <p>I currently serve as Secretary in the Legal Aid Committee and also hold
+                                                the
+                                                role of Internship Coordinator. With a strong academic foundation and
+                                                significant research experience, I have developed into a dedicated and
+                                                accomplished advocate. My involvement in moot court competitions has
+                                                further
+                                                sharpened my skills and passion for the legal field. I excel in legal
+                                                research, possess strong writing capabilities, and demonstrate
+                                                exceptional
+                                                oral advocacy skills.
+
+
+                                            <p id="content4" style="display: none;">
+                                                Through internships and specialized certifications in areas such as
+                                                Criminology Basics and Intellectual Property Rights in India, I have
+                                                gained
+                                                practical insights and knowledge essential for the legal profession. My
+                                                commitment to excellence, coupled with my ability to work both
+                                                independently
+                                                and collaboratively, positions me as a valuable contributor in any legal
+                                                environment.
+                                            </p>
+
+
+                                            <div class="overlay">
+
+                                                <a href="#"> ektatrivedi511@gmail.com </a> <br>
+                                                <a href="#"> 9569974980</a> <br>
+                                            </div>
+                                            </p>
+
+
+                                            <button onclick="readmore5()" class="mt-2">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+
+        <!-- ========================================================================================== -->
+
+        <!-- Last Part -->
+        <div class="container-fluid">
+            <div class="container p-5">
+                <div class="row text-center fw-bold">
+                    <div class="col-lg-3">
+                        <h3>100 <sup>+</sup></h3>
+                        <p class="fs-3">Happy clients</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>116 <sup>+</sup></h3>
+                        <p class="fs-3">Testimonials</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>15<sup>+</sup></h3>
+                        <p class="fs-3">Articles Published</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>30<sup>+</sup></h3>
+                        <p class="fs-3">Attorneys</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================================================================================== -->
+
+        <!-- FOOTER SESSION ( LAST SESSION ) -->
+        <footer>
+            <!--  FOOTER START -->
+
+            <div class="footer">
+                <div class="inner-footer">
+
+                    <!--  for company name and description -->
+                    <div class="footer-items">
+                        <h3>Excellent Legal <br> Helpers</h3>
+                        <div class="border1"></div>
+                        <p style="margin-left: 15px;">All India legal Counsel (AILC) is Now Excellent Legal Helpers(ELH)
+                            !!
+                            <br>
+                            Justice is a Complementary Rights of every citizen !!
+                        </p>
+                    </div>
+
+                    <!--  for quick links  -->
+                    <div class="footer-items">
+                        <h3>Quick Links</h3>
+                        <div class="border1"></div> <!--for the underline -->
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li> <a href="#">Contact Us</a></li>
+                            <li> <a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!--  for contact us info -->
+                    <div class="footer-items">
+                        <h3>Contact us</h3>
+                        <div class="border1"></div>
+                        <ul>
+                            <li><i class="fa fa-map-marker me-3" aria-hidden="true"></i><a href="">New Delhi, India</a>
+                            </li>
+                            <li><i class="fa fa-phone me-3" aria-hidden="true"></i><a href="">
+                                    9821669624</a></li>
+                            <li><i class="fa fa-envelope me-3" aria-hidden="true"></i><a
+                                    href="mailto:elh.freelawcourses@gmail.com">hrexcellentlegalhelpers@gmail.com</a>
+                            </li>
+                        </ul>
+
+                        <!--   for social links -->
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/excellent_legal_helpers?igsh=MWFvczlqbG1manQ0Mg=="><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61558703671073&mibextid=rS40aB7S9Ucbxw6v"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/excellent-legal-helpers/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+
+                            <a href="https://wa.me/9821669624"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--   Footer Bottom start  -->
+                <div class="footer-bottom fs-6">
+                    Copyright &copy; 2020 Excellent legal helpers registered by MSME
+                </div>
+            </div>
+
+            <!--   Footer Bottom end -->
+
+            <!--   FOOTER END -->
+        </footer>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- partnear card script -->
+    <script>
+        var target1 = document.getElementById('content');
+        function readmore1() {
+            if (target1.style.display === "none") {
+                target1.style.display = 'block';
+            } else {
+                target1.style.display = "none";
+            }
+        }
+        var target2 = document.getElementById('content1');
+        function readmore2() {
+            if (target2.style.display === "none") {
+                target2.style.display = 'block';
+            } else {
+                target2.style.display = "none";
+            }
+        }
+        var target3 = document.getElementById('content2');
+        function readmore3() {
+            if (target3.style.display === "none") {
+                target3.style.display = 'block';
+            } else {
+                target3.style.display = "none";
+            }
+        }
+
+        var target4 = document.getElementById('content3');
+        function readmore4() {
+            if (target4.style.display === "none") {
+                target4.style.display = 'block';
+            } else {
+                target4.style.display = "none";
+            }
+        }
+
+
+        var target5 = document.getElementById('content4');
+        function readmore5() {
+            if (target5.style.display === "none") {
+                target5.style.display = 'block';
+            } else {
+                target5.style.display = "none";
+            }
+        }
+
+
+        // $(document).ready(function () {
+        //     $('#popUpForm').fadeIn(1000);
+
+        // });
+        // $("#close").click(function () {
+        //     $("#popUpForm").css("display", "none");
+        // });
+
+
+        function showPopup() {
+            document.getElementById('popup').style.display = 'flex';
+            document.getElementById('main-content').classList.add('blurred');
+        }
+
+        function redirectToWebsite() {
+            // window.location.href = 'https://your-website.com';
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('main-content').classList.remove('blurred');
+        }
+
+        function redirectToGoogle() {
+            window.location.href = 'https://www.google.com';
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

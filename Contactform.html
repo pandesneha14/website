@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>excellentlegalhelpers.com</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <style>
+
+/* .text_img1 {
+            font-size: 40px;
+            background: url(https://cdn.pixabay.com/photo/2017/08/29/12/43/international-2693204_640.jpg);
+            background-size: contain;
+            -webkit-background-clip: text;
+            font-weight: bolder;
+          
+            -webkit-text-fill-color: transparent;
+        } */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            background: url(https://media.licdn.com/dms/image/D4D12AQH7pLGzYg3C2g/article-cover_image-shrink_720_1280/0/1691840768274?e=2147483647&v=beta&t=4Xuf1tEUt4XJe0UFZ6qZDPvf5E-BgaYAUGQnOpu6eGc);
+            background-repeat: repeat;
+            background-size: contain;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background-repeat: no-repeat;
+                /* This will not repeat the background */
+                background-size: cover;
+                /* This will make sure the image covers the whole area */
+            }
+        } 
+
+        /* ==================================FOOTER  SESSION STYLING==================================*/
+        .footer {
+            width: 100%;
+            background: black;
+            display: block;
+            margin-top: 50px;
+        }
+
+        .inner-footer {
+            width: 100%;
+            margin: auto;
+            padding: 30px 10px;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            justify-content: space-evenly;
+        }
+
+        .footer-items {
+            width: 30%;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            color: #fff;
+        }
+
+        .footer-items p {
+            font-size: 16px;
+            text-align: justify;
+            line-height: 25px;
+            color: #fff;
+        }
+
+        .footer-items h1 {
+            color: #fff;
+        }
+
+        .border1 {
+            height: 3px;
+            width: 40px;
+            background: white;
+            color: white;
+            background-color: white;
+            margin-bottom: 10px;
+            border: 0px;
+        }
+
+        ul {
+            list-style: none;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        ul a {
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        ul a:hover {
+            color: #ff9800;
+        }
+
+        li i:hover {
+            transform: scale(1.5);
+        }
+
+
+        .social-media {
+            width: 100%;
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+        }
+
+        .social-media i {
+            height: 25px;
+            width: 25px;
+            margin: 20px 10px;
+            padding: 4px;
+            color: #fff;
+            transition: 0.5s;
+        }
+
+        .social-media i:hover {
+            transform: scale(1.5);
+        }
+
+
+        .footer-bottom {
+            border-top: 1px solid rgb(156, 153, 153);
+            padding: 17px;
+            background: black;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        /* for tablet mode view */
+
+        @media screen and (max-width: 1275px) {
+            .footer-items {
+                width: 50%;
+            }
+        }
+
+        /* for mobile screen view */
+
+        @media screen and (max-width: 660px) {
+            .footer-items {
+                width: 100%;
+            }
+        }
+
+
+        h3 {
+            transition: 0.3s;
+        }
+
+        h3:hover {
+            font-size: 35px;
+        }
+
+
+
+
+        /*========================================CSS DROPDOWN STYLING================================== */
+        .dropbtn {
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(33, 37, 41);
+            min-width: 140px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            margin-left: 40px;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 12px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: white
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+
+        /* ======================================CSS FIRM PAGE STYLING====================================== */
+
+
+        .container {
+            border-radius: 5px;
+            /* margin-top: 40px; */
+            background-color: transparent;
+            box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+        }
+
+        article {
+            color: white;
+            font-size: 16px;
+        }
+
+        @media screen and (min-width: 480px) {}
+
+        span {
+            color: #FFF;
+            font-size: 43px;
+        }
+
+        .third {
+            width: 100%;
+            height: 460px;
+            margin-top: 20px;
+        }
+
+        strong {
+            text-decoration: 7px underline white;
+        }
+
+        /* Your existing styles */
+
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 0;
+                width: 100%;
+            }
+
+            .box-area {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                grid-gap: 20px;
+            }
+
+            .box {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .overlay {
+                margin-top: 100px;
+            }
+
+            header {
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .overlay {
+                margin-top: 200px;
+            }
+
+            header {
+                font-size: 25px;
+            }
+        }
+
+        button {
+            background-color: white;
+            border: none;
+            padding: 3px 8px;
+
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+
+
+        /* ========================================CSS NAVBAR STYLING============================================ */
+
+        /* NAVBAR DROPDOWN CSS  START */
+
+        ul a {
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        ul a:hover {
+            color: #ff9800;
+        }
+
+        .dropdown-item {
+            transition: .5s;
+        }
+
+        /* Custom styles for nested dropdown */
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+            display: none;
+        }
+
+        .dropdown-submenu:hover .dropdown-menu {
+            display: block;
+        }
+
+
+        /* NAVBAR DROPDOWN CSS FINISH */
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        small {
+            display: block;
+            padding: 1rem 0;
+            font-size: 0.8rem;
+            transition: opacity 0.33s;
+            font-size: 20px
+        }
+
+        textarea,
+        input,
+        button {
+            line-height: 1.5rem;
+            border: 0;
+            outline: none;
+            font-family: inherit;
+            appearance: none;
+        }
+
+        textarea,
+        input {
+            color: white;
+            background-color: transparent;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgb(235, 229, 229)' x='0' y='23' width='10' height='1'/></svg>");
+        }
+
+        textarea {
+            width: 100%;
+            height: 8rem;
+            resize: none;
+        }
+
+        input {
+            width: 50%;
+            margin-bottom: 1rem;
+
+            &[type=text]:invalid,
+            [type=email]:invalid {
+                box-shadow: none;
+                background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgb(235, 229, 229)' x='0' y='23' width='10' height='1'/></svg>");
+            }
+        }
+
+        button {
+            padding: 0.4rem 1rem;
+            border-radius: 0.25rem;
+            background-color: white;
+            color: black;
+            font-size: 1rem;
+            transition: background-color 0.2s;
+
+            &:hover,
+            :focus {
+                /* outline: none; */
+                background-color: white;
+            }
+        }
+
+        input[type=text]:focus,
+        input[type=email]:focus,
+        textarea:focus {
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgb(235, 229, 229)' x='0' y='23' width='10' height='1'/></svg>");
+            outline: none;
+        }
+
+        .wrapper {
+            max-width: 35rem;
+            background-color: white;
+        }
+
+        .side {
+            height: 12rem;
+            background-color: rgb(43, 48, 50);
+
+            &:nth-of-type(1) {
+                padding: 2rem 2rem 0;
+                border-radius: 1rem 1rem 0 0;
+                box-shadow: 0 0.75rem 2rem rgba(10, 10, 10, 0.5);
+            }
+
+            &.side:nth-of-type(2) {
+                padding: 2rem;
+                border-radius: 0 0 1rem 1rem;
+                box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.05), 0 -0.57rem 2rem rgba(5, 5, 5, 0.5);
+                text-align: right;
+            }
+        }
+
+        .envelope {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        .envelope.front {
+            width: 10rem;
+            height: 6rem;
+            border-radius: 0 0 1rem 1rem;
+            overflow: hidden;
+            z-index: 9999;
+            opacity: 0;
+        }
+
+        .envelope.front::before,
+        .envelope.front::after {
+            position: absolute;
+            display: block;
+            width: 12rem;
+            height: 6rem;
+            background-color: #e9dc9d;
+            transform: rotate(30deg);
+            transform-origin: 0 0;
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+            content: '';
+        }
+
+        .envelope.front::after {
+            right: 0;
+            transform: rotate(-30deg);
+            transform-origin: 100% 0;
+        }
+
+        .envelope.back {
+            top: -4rem;
+            width: 10rem;
+            height: 10rem;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(-6rem);
+
+            &::before {
+                display: block;
+                width: 10rem;
+                height: 10rem;
+                background-color: #e9dc9d;
+                border-radius: 1rem;
+                content: '';
+                transform: scaleY(0.6) rotate(45deg)
+            }
+        }
+
+        .result-message {
+            opacity: 0;
+            transition: all 0.3s 2s;
+            transform: translateY(9rem);
+            z-index: -9999;
+        }
+
+        .sent {
+            & .letter {
+                animation: scaleLetter 1s forwards ease-in;
+            }
+
+            & .side:nth-of-type(1) {
+                transform-origin: 0 100%;
+                animation: closeLetter 0.66s forwards ease-in;
+            }
+
+            & .side:nth-of-type(1) h1,
+            .side:nth-of-type(1) textarea {
+                animation: fadeOutText 0.66s forwards linear;
+            }
+
+            & button {
+                background-color: rgba(78, 94, 114, 0.2);
+            }
+
+            & .envelope {
+                animation: fadeInEnvelope 0.5s 1.33s forwards ease-out;
+            }
+
+            & .result-message {
+                opacity: 1;
+                transform: translateY(12rem);
+            }
+
+            & small {
+                opacity: 0;
+            }
+        }
+
+        .centered {
+            left: 0;
+            right: 0;
+            margin: 1rem auto;
+        }
+
+        @keyframes closeLetter {
+            50% {
+                transform: rotateX(-90deg);
+            }
+
+            100% {
+                transform: rotateX(-180deg);
+            }
+        }
+
+        @keyframes fadeOutText {
+            49% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeInEnvelope {
+            0% {
+                opacity: 0;
+                transform: translateY(8rem);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(4.5rem);
+            }
+        }
+
+        @keyframes scaleLetter {
+            66% {
+                transform: translateY(-8rem) scale(0.5, 0.5);
+            }
+
+            75% {
+                transform: translateY(-8rem) scale(0.5, 0.5);
+            }
+
+            90% {
+                transform: translateY(-8rem) scale(0.3, 0.5);
+            }
+
+            97% {
+                transform: translateY(-8rem) scale(0.33, 0.5);
+            }
+
+            100% {
+                transform: translateY(-8rem) scale(0.3, 0.5);
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+
+            .nav-text {
+                font-size: 18px;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+      <!-- Small Navbar -->
+      <div class="container-fluid pt-3" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="text-center" style="font-family: 'Times New Roman';">
+                    <img src="logo1.jpeg" alt="" width="60px" style="border-radius: 50%;"><span
+                        class="px-3 fs-3 text-white">EXCELLENT LEGAL HELPERS</span>
+                    <img src="logo2.jpeg" alt="" width="60px" style="border-radius: 50%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Big Navbar -->
+    <div class="container-fluid" style="background-color: black; position: sticky; top: 0; z-index: 99;">
+        <div>
+            <div class="row">
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-dark justify-content-center"
+                        style="background-color: black;">
+
+                        <div class="d-lg-block d-none">
+                            <ul class="nav navbar-nav">
+                                <!--  -->
+
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link text-white ">Home</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+
+                                    <!-- Service first dropdown -->
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" href="#">Area of practice </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Civil
+                                                        matters</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Criminal
+                                                        matters
+
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Matrimonial
+                                                        matters
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark"> Property
+                                                        matters
+
+                                                    </a>
+                                                </li>
+
+
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Bail
+                                                        matters
+
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark"> Motor
+                                                        accident claim matters
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Meditation
+                                                        and arbitration matters
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark"> Court
+                                                        marriage
+
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Challans
+                                                    </a>
+                                                </li>
+
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Money
+                                                        laundering
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+
+                                        <!-- Service second dropdown -->
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" href="#">Legal Document</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Legal notice
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Will deed
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Gift deed</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark"> Sale deed
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Partnership
+                                                        deed
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark"> Agreement</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Contract</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Power of
+                                                        attorney
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Rent agreement
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark"> Lease
+                                                        agreement
+                                                    </a>
+                                                </li>
+
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Non -
+                                                        disclosure
+                                                        agreement
+
+                                                    </a>
+                                                </li>
+
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Trademark
+                                                        registration
+
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+
+                                        <!-- Service third dropdown -->
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" href="#">Other Services</a>
+                                            <ul class="dropdown-menu">
+
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Company
+                                                        Registration
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark"> MSME
+                                                        registration
+
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="" class="text-decoration-none text-dark">Other
+                                                        services (+)</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <!-- Service fourth dropdown -->
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" href="mailto:elh.freelawcourses@gmail.com">Join
+                                                Internship</a>
+                                        </li>
+
+                                        <!-- Service fifth dropdown -->
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" href="#">Online Exam.</a>
+                                            <ul class="dropdown-menu">
+
+                                                <li class="dropdown-item">
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUTde174YRoDA_dxUzhD2OVPoUCwWmGC99aKKNQGjhIXZ84A/viewform?usp=sf_link"
+                                                        class="text-decoration-none text-dark">IPR Examination </a>
+                                                </li>
+
+                                                <li class="dropdown-item">
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSGY7I642rGSBkqNEl8WiZCbmQKJUpPWvmzGq0weZuSVmdfg/viewform?usp=sf_link"
+                                                        class="text-decoration-none text-dark">Criminology
+                                                        Examination</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+
+                                <!-- ======================================================================== -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Free Certification Course
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                        <!-- Free Certification Course first dropdown-->
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item " href="ipr_certification.html">IPR
+                                                Certification
+                                                Course</a>
+                                        </li>
+
+
+                                        <!-- Free Certification Course second dropdown-->
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item " href="criminology.html">Criminology
+                                                Certification
+                                                Course</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+
+                                <li class="nav-item">
+                                    <a href="LegalAid.html" class="nav-link text-white">Free Legal Aid</a>
+
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="BoardofAdvisory.html" class="nav-link text-white">Board of
+                                        Advisory</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="seminar.html" class="nav-link text-white">Seminars & Events
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="Contactform.html" class="nav-link text-white">Contact Us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        <!-------------------------------- mobile responsive ------------------------------->
+
+
+                        <i class="fa-solid fa-house d-lg-none d-block text-white fs-3" data-bs-toggle="offcanvas"
+                            data-bs-target="#abc"></i>
+                        <div class="offcanvas offcanvas-end d-lg-none d-block w-100" id="abc">
+                            <div class="offcanvas-header">
+                                <button class="btn-close ms-auto" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item">
+                                        <a href="index.html" class="nav-link text-dark mt-3">Home</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-dark mt-3" href="#serv"
+                                            id="navbarDropdown" role="button" data-bs-toggle="collapse"
+                                            aria-expanded="false">Services</a>
+                                        <ul class="dropdown-menu collapse" id="serv"
+                                            aria-labelledby="navbarDropdown">
+
+
+                                            <!-- Service first dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="collapse"
+                                                    href="#servdrop">Area of practice </a>
+                                                <ul class=" collapse" id="servdrop">
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Civil
+                                                            matters</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Criminal
+                                                            matters</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href=""
+                                                            class="text-decoration-none text-dark">Matrimonial
+                                                            matters</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Property
+                                                            matters</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Bail
+                                                            matters</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Motor
+                                                            accident claim matters</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Meditation
+                                                            and
+                                                            arbitration matters</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Court
+                                                            marriage</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href=""
+                                                            class="text-decoration-none text-dark">Challans</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Money
+                                                            laundering</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+
+
+                                            <!-- Service second dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="#legal"
+                                                    data-bs-toggle="collapse">Legal Document</a>
+                                                <ul class=" collapse" id="legal">
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Legal
+                                                            notice</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Will deed
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Gift
+                                                            deed</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Sale deed
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href=""
+                                                            class="text-decoration-none text-dark">Partnership
+                                                            deed</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">
+                                                            Agreement</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href=""
+                                                            class="text-decoration-none text-dark">Contract</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Power of
+                                                            attorney</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Rent
+                                                            agreement</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> Lease
+                                                            agreement</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Non -
+                                                            disclosure agreement</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Trademark
+                                                            registration</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- Service third dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="#otherserv"
+                                                    data-bs-toggle="collapse">Other Services</a>
+                                                <ul class="collapse" id="otherserv">
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Company
+                                                            Registration</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark"> MSME
+                                                            registration</a>
+                                                    </li>
+
+                                                    <li class="dropdown-item">
+                                                        <a href="" class="text-decoration-none text-dark">Other
+                                                            services
+                                                            (+)</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- Service fourth dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item"
+                                                    href="mailto:elh.freelawcourses@gmail.com">Join
+                                                    Internship</a>
+                                            </li>
+
+                                            <!-- Service fifth dropdown -->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="#">Online Exam.</a>
+                                                <ul class="dropdown-menu">
+
+                                                    <li class="dropdown-item">
+                                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUTde174YRoDA_dxUzhD2OVPoUCwWmGC99aKKNQGjhIXZ84A/viewform?usp=sf_link"
+                                                            class="text-decoration-none text-dark">IPR Examination
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSGY7I642rGSBkqNEl8WiZCbmQKJUpPWvmzGq0weZuSVmdfg/viewform?usp=sf_link"
+                                                            class="text-decoration-none text-dark">Criminology
+                                                            Examination</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-dark mt-3" href="#"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">Free
+                                            Certification Course</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                            <!-- Free Certification Course first dropdown-->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item " href="ipr_certification.html">IPR
+                                                    Certification Course</a>
+                                            </li>
+
+                                            <!-- Free Certification Course second dropdown-->
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item " href="criminology.html">Criminology
+                                                    Certification Course</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="LegalAid.html" class="nav-link text-dark mt-3">Free Legal Aid</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="BoardofAdvisory.html" class="nav-link text-dark mt-3">Board of
+                                            Advisory</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="seminar.html" class="nav-link text-dark mt-3">Seminars & Events
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="Contactform.html" class="nav-link text-dark mt-3">Contact Us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================================================================================================ -->
+
+    <!-- main session -->
+    <div class="container-fluid mt-5">
+        <div class="wrapper centered bg-transparent" style="border-radius: 5px;">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="946c2f57-1cb5-4c7f-9a80-465b1f18271d">
+                <article class="letter">
+                    <div class="side shadow-lg">
+                        <h1 class="mb-3">Contact us</h1>
+                        <p>
+                            <textarea placeholder="Explain your query in maximum 1000 words"
+                                name='first_name'></textarea>
+                        </p>
+                    </div>
+                    <div class="side shadow-lg">
+                        <p>
+                            <input type="text" placeholder="Your name">
+                        </p>
+                        <p>
+                            <input type="email" name='first_name' placeholder="Your email">
+                        </p>
+
+                        <p>
+                            <input type="number" name='first_name' placeholder="Your number">
+                        </p>
+                        <p>
+                            <button id="sendLetter">Send</button>
+                        </p>
+                    </div>
+                </article>
+            </form>
+            <div class="envelope front"></div>
+            <div class="envelope back bg-transparent"></div>
+        </div>
+        <p class="result-message centered">Thank you for your message</p>
+    </div>
+    <!-- ========================================================================================== -->
+
+    <!-- FOOTER SESSION ( LAST SESSION ) -->
+    <footer>
+        <!--  FOOTER START -->
+
+        <div class="footer">
+            <div class="inner-footer">
+
+                <!--  for company name and description -->
+                <div class="footer-items">
+                    <h3>Excellent Legal <br> Helpers</h3>
+                    <div class="border1"></div>
+                    <p style="margin-left: 15px;">All India legal Counsel (AILC) is Now Excellent Legal Helpers(ELH)
+                        !!
+                        <br>
+                        Justice is a Complementary Rights of every citizen !!
+                    </p>
+                </div>
+
+                <!--  for quick links  -->
+                <div class="footer-items">
+                    <h3>Quick Links</h3>
+                    <div class="border1"></div> <!--for the underline -->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li> <a href="#">Contact Us</a></li>
+                        <li> <a href="#">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!--  for contact us info -->
+                <div class="footer-items">
+                    <h3>Contact us</h3>
+                    <div class="border1"></div>
+                    <ul>
+                        <li><i class="fa fa-map-marker me-3" aria-hidden="true"></i><a href="">New Delhi, India</a>
+                        </li>
+                        <li><i class="fa fa-phone me-3" aria-hidden="true"></i><a href="">
+                                9821669624</a></li>
+                        <li><i class="fa fa-envelope me-3" aria-hidden="true"></i><a
+                                href="mailto:elh.freelawcourses@gmail.com">hrexcellentlegalhelpers@gmail.com</a>
+                        </li>
+                    </ul>
+
+                    <!--   for social links -->
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/excellent_legal_helpers?igsh=MWFvczlqbG1manQ0Mg=="><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61558703671073&mibextid=rS40aB7S9Ucbxw6v"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/excellent-legal-helpers/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+
+                        <a href="https://wa.me/9821669624"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--   Footer Bottom start  -->
+            <div class="footer-bottom fs-6">
+                Copyright &copy; 2020 Excellent legal helpers registered by MSME
+            </div>
+        </div>
+
+        <!--   Footer Bottom end -->
+
+        <!--   FOOTER END -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function addClass() {
+            document.body.classList.add("sent");
+        }
+
+        sendLetter.addEventListener("click", addClass);
+    </script>
+
+</body>
+
+</html>
